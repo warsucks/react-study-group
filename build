@@ -1,0 +1,2 @@
+browserify browserify/source.js -o browserify/bundle.js -t [ babelify --presets [ es2015 react ] ]
+sass sass/main.scss styles/main.css
