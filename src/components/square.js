@@ -4,11 +4,10 @@ let Square = React.createClass({
 
 	render: function() {
 		return (
-			<div className="square"> Square
+			<div className="square">
 			</div>
 		)
 	}
 });
 
 module.exports = Square;
-

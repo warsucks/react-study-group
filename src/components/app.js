@@ -5,9 +5,7 @@ let GameBoard = require('./gameBoard')
 let App = React.createClass({
 	render: function() {
 		return (
-			<GameBoard 
-				numRows={3} 
-				numCols={3} />
+			<GameBoard />
 		)
 	}
 })
