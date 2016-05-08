@@ -1,4 +1,4 @@
 node_modules
-browserify/bundle.js
+public
 .sass-cache
 .DS_Store
