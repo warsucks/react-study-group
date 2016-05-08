@@ -13,7 +13,7 @@ options = {
    js: path.join(__dirname, 'src/app.js'),
    bundle: 'app.bundle.js',
    index: path.join(__dirname, 'src/index.html'),
-   watch: path.join(__dirname, 'src/**/*.'),
+   watch: path.join(__dirname, 'src/**/*'),
    reloadWatch: path.join(__dirname, 'public/**/**')
 }
 
