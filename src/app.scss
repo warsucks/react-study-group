@@ -1,6 +1,3 @@
-.square {
-	display: inline-block;
-	width: 100px;
-	height: 100px;
-	background-color: green;
-}
+@import 'components/gameBoard';
+@import 'components/square';
+@import 'components/app';
