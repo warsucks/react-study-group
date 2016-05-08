@@ -4,16 +4,31 @@
   "description": "",
   "author": "Kathy Lu",
   "license": "Copyright © 2016. Kathy Lu. All rights reserved.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --inline --hot --content-base src/ --port 8800",
+    "prod": "webpack -p && cp ./src/index.html ./public/index.html"
+  },
   "devDependencies": {
-    "react": "^15.0.2",
-    "react-dom": "^15.0.2",
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
     "babel-preset-es2015": "^6.6.0",
     "babel-preset-react": "^6.5.0",
     "babelify": "^7.3.0",
     "browser-sync": "^2.12.5",
     "browserify": "^13.0.0",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.1",
+    "node-sass": "^3.7.0",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "sass-loader": "^3.2.0",
+    "style-loader": "^0.13.1",
     "vinyl-source-stream": "^1.1.0",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
   }
 }
