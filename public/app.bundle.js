@@ -19473,35 +19473,35 @@ var React = require('react');
 var Square = require('./square');
 
 var GameBoard = React.createClass({
-	displayName: 'GameBoard',
+		displayName: 'GameBoard',
 
-	render: function render() {
-		return React.createElement(
-			'div',
-			{ className: 'game-board' },
-			React.createElement(
-				'div',
-				null,
-				React.createElement(Square, null),
-				React.createElement(Square, null),
-				React.createElement(Square, null)
-			),
-			React.createElement(
-				'div',
-				null,
-				React.createElement(Square, null),
-				React.createElement(Square, null),
-				React.createElement(Square, null)
-			),
-			React.createElement(
-				'div',
-				null,
-				React.createElement(Square, null),
-				React.createElement(Square, null),
-				React.createElement(Square, null)
-			)
-		);
-	}
+		render: function render() {
+				return React.createElement(
+						'div',
+						{ className: 'game-board' },
+						React.createElement(
+								'div',
+								{ className: 'game-board-row' },
+								React.createElement(Square, null),
+								React.createElement(Square, null),
+								React.createElement(Square, null)
+						),
+						React.createElement(
+								'div',
+								{ className: 'game-board-row' },
+								React.createElement(Square, null),
+								React.createElement(Square, null),
+								React.createElement(Square, null)
+						),
+						React.createElement(
+								'div',
+								{ className: 'game-board-row' },
+								React.createElement(Square, null),
+								React.createElement(Square, null),
+								React.createElement(Square, null)
+						)
+				);
+		}
 });
 
 module.exports = GameBoard;

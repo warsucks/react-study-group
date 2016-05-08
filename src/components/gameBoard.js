@@ -5,20 +5,20 @@ let GameBoard = React.createClass({
 	render: function() {
 		return (
 		<div className="game-board">
-			<div>
-				<Square />
-				<Square />
-				<Square />
+			<div className="game-board-row">
+					<Square />
+					<Square />
+					<Square />
 			</div>
-			<div>
-				<Square />
-				<Square />
-				<Square />
+			<div className="game-board-row">
+					<Square />
+					<Square />
+					<Square />
 			</div>
-			<div>
-				<Square />
-				<Square />
-				<Square />
+			<div className="game-board-row">
+					<Square />
+					<Square />
+					<Square />
 			</div>
 		</div>
 		)
