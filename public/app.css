@@ -1,0 +1,21 @@
+.game-board {
+  max-width: 900px;
+  max-height: 900px;
+  min-height: 900px;
+  flex: 1;
+  display: flex;
+  flex-direction: column; }
+  .game-board .game-board-row {
+    flex: 1;
+    display: flex; }
+
+.square {
+  display: inline-block;
+  flex: 1;
+  background-color: lightblue;
+  margin: 5px 5px 5px 5px; }
+
+#app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
