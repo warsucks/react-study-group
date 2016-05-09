@@ -15,3 +15,5 @@ Run `gulp` to build, including the following tasks:
 - compile JSX and es6 to es5 JavaScript, and bundle up the JavaScript files to be used in a module system (with Browserify)
 - watch for changes to the relevant files, to rerun the above compile steps when files have been updated
 - start a static server, serving up `index.html` at `localhost:3000`
+
+The build process is defined in `gulpfile.js`.
