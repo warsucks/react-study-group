@@ -6,8 +6,8 @@ This is boilerplate code for building an application using React.
 You should have node and npm installed.
 
 ##Install Dependencies
-After cloning, run `npm install`
-That will install all the node modules listed in `package.json` as dependencies.
+After cloning, run `npm install`.
+This will install all the node modules listed in `package.json` as dependencies.
 
 ##Build
 Run `gulp` to build, including the following tasks:
